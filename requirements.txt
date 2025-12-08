@@ -1,0 +1,11 @@
+llama-index
+llama-index-embeddings-huggingface
+llama-index-llms-ollama
+chromadb
+sentence-transformers
+pypdf
+python-docx
+pandas
+numpy
+openpyxl
+python-pptx
