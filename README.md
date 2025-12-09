@@ -134,10 +134,20 @@ python src/query_rag_claude.py
 ```
 
 Example queries:
-- "What are my main technical skills?"
-- "Summarize my professional experience"
-- "What Python projects have I worked on?"
+- "Summarize my resume and professional experience"
+- "What Python skill have I demonstrated?"
 - "What was my GPA in college?"
+### Running the Demo
+
+To see a curated demonstration of the RAG system's capabilities:
+```bash
+python demo.py
+```
+
+This runs 3 pre-defined queries showcasing:
+- Technical skills extraction
+- Professional experience summarization
+- Educational background
 
 ## 💡 Key Features
 
@@ -192,14 +202,6 @@ python src/check_index.py
 - **Python Development:** Multi-format parsing, async operations
 - **MLOps Concepts:** Model selection, inference optimization
 
-## 📝 Future Enhancements
-
-- [ ] Incremental indexing (add documents without full rebuild)
-- [ ] Web interface with Streamlit or Gradio
-- [ ] Integration with GitHub API to index code repositories
-- [ ] Automated document updates via file watching
-- [ ] Query history and analytics
-- [ ] Support for image/diagram extraction from documents
 
 ## 🤝 Contact
 
